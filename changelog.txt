@@ -1,0 +1,233 @@
+04/02/2022 - Add lua scripting
+             Add button edit dialog
+             Add button debounce/invert settings
+             Add bind many function
+             Misc bug fixes
+12/28/2021 - Add DirectX 9On12 wrapper option
+             Add analog deadzone settings
+             Fix SSL handshaking failed issue
+             Misc bug fixes
+12/19/2021 - Force single graphics adapter option
+             Performance improvements
+             Misc bug fixes
+10/12/2021 - Ongaku Paradise support
+             Fixed memory leak in Windows 8+ touch handler
+             Fix Gitadora two channel fix for Nextage
+             Fix Charge Machine touch window position
+             IIDX 19 support
+04/02/2021 - Charge Machine support
+             Fix "unsupported fs type" endless loop
+             Misc bug fixes
+03/01/2021 - Add DDR HD speaker lights
+             Automatic /dev/nvram and /dev/raw creation for AVS 2.17 and later
+             Fix FlexASIO crash introduced in previous release
+             Fix overlay crash from ImGui navigation button handling
+             Fix AVS configuration reading with binary files
+             Add AVS VFS drive remapping for E: and F:
+             Improve XP compatibility
+             Force dummy audio when using ASIO backend
+             Misc bug fixes
+12/30/2020 - Metal Gear Arcade lights and fixes
+             Misc bug fixes
+12/11/2020 - Fix patch manager crashing on invalid address
+             Automatic /dev/nvram and /dev/raw creation for AVS 2.16 and prior
+             Analog sensitivity improvements
+             Locale improvements
+             Misc bug fixes
+10/27/2020 - Screen Capture support
+             IIDX TDJ support
+             Updated patches
+             Misc bug fixes
+10/13/2020 - Configurator patches tab
+             KFControl fix cursor wrap
+             Screen resize window
+             Misc bug fixes
+10/03/2020 - Add KFControl
+             Misc bug fixes
+09/27/2020 - Reflec limelight & colette (LBR) support
+             LovePlus lights support
+             Fix module loading when spice(64).exe is outside contents
+             Ignore touchpad HID devices in touchscreen detection
+             Keypad bindings
+             SSL support
+             Analog knob preview
+06/15/2020 - QMA physical keyboard support
+             Misc bug fixes
+05/19/2020 - Alternate audio backends for exclusive-mode applications
+             Fix screenshot handler crash in KMA and LMA
+             MessageBox hooks (stops fullscreen windows from losing focus)
+04/25/2020 - pop'n music 19 & 20 support
+             DDR X2 support
+             pop'n & HPM HDMI fix
+             Misc additions, fixes
+03/13/2020 - Misc bug fixes and improvements
+03/10/2020 - Winning Eleven support
+03/04/2020 - Tenkaichi Shogikai support
+             Otoca D'or support
+             Misc bug fixes
+02/29/2020 - MIDI hotplugging / overlay
+             Misc bug fixes
+02/04/2020 - Configurator options tab
+             Overlay button bindings
+             Card generator
+             Misc bug fixes
+01/22/2020 - Audio improvements
+             SDVX print overwrite option
+             PNM HD/SD options
+             Window icons
+             Misc improvements
+01/11/2020 - New Config Utility (F4)
+             Audio Hooks
+             Misc bug fixes
+01/03/2020 - DANCERUSH STARDOM support
+             Chinese SDVX support
+             Nostalgia OP2 support
+             LayeredFS now complete
+             Misc bug fixes
+11/26/2019 - LayeredFS integration
+             Misc bug fixes
+11/17/2019 - Screenshots (PrtScr Key)
+             DLL Architecture detection
+             SCard Felica support
+             Improve MIDI performance
+             Fix bt5api error handling
+             Fix XP support
+11/05/2019 - Gitadora XG3 support
+             Guitar motor support
+             Gitadora cabinet setting
+             DDR HD->SD light support
+             ESP8266/NodeMCU API support
+             Misc bug fixes
+10/13/2019 - Serial API support
+             Fullscreen monitor setting
+             Misc bug fixes
+09/30/2019 - Fixed verbose D3D9 logging
+             MiniMaid support
+             EA-Dev functions
+             Metal Gear bug fixes
+09/26/2019 - Steel Chronicle support
+             ACIO buffer view/editor
+             Misc bug fixes
+09/21/2019 - IIDX Effector View
+             Performance improvements
+             PCBID now hidden in log file
+             Misc bug fixes
+09/16/2019 - Introducing SpiceOverlay
+             - Virtual Keypads/Cards
+             - Patch Manager
+             - FPS/Log/Control Windows
+             Pop'n Music fancy window mode
+             Optional app-config.xml
+             Misc improvements
+             Misc bug fixes
+09/09/2019 - DDR BIO2 support
+             NVIDIA Optimus support
+             Reflec Beat faster loading
+             Performance improvements
+             Misc bug fixes
+08/24/2019 - Automatic G-Sync disable
+             Fixed Scotto inverted keypad
+             Fixed SDVX Gen1 input drops
+             Performance improvements
+08/19/2019 - Scotto support
+             Mahjong Fight Club support
+             FutureTomTom Kinect fix
+             Fixed AVS heap size defaults
+             Fixed signal hook crash
+             Fixed early boot logging
+08/14/2019 - HELLO! Pop'n Music lights
+             Improve performance
+08/13/2019 - Add -cfgpath option
+             Misc additions/fixes
+08/10/2019 - HELLO! Pop'n Music support
+             LovePlus support
+             Discord Rich Presence support
+             API shutdown/reboot
+             Add -nolegacy option
+             Colored logging
+07/31/2019 - QMA windowed mode fix
+             QMA network check fix
+             Logging improvements
+07/22/2019 - DDR SD mode reader fix
+             Misc bugs fixed with ACIO
+             Beatstream lights/mouse
+             Beatstream -ea support
+07/19/2019 - FutureTomTom support
+             Reflec Beat lights
+             Dance Evolution lights
+             Nostalgia lights
+             SuperExit on ALT-F4
+07/16/2019 - Hook DLLs load earlier
+             Heap size argument alias
+             API restart function
+             SmartEA cmd line option
+             Reader keypad support
+             Initial MFC support
+             Misc bug fixes
+06/22/2019 - Touchpad button binding fix
+             MIDI buttons/analogs support
+             Misc bug fixes
+05/18/2019 - API WebSocket support
+05/16/2019 - Device Hotplugging
+             USB-Stick card inserts
+             Cursor capture fix
+             EA server fix for old AVS
+05/07/2019 - Reflec 1 support
+             Gitadora custom PCBID
+             Touchscreen improvements
+             Touchscreen support on XP
+             Higher RB input polling rate
+             L/R-Shift/Control support
+04/13/2019 - DDR SD Mode lights
+             Sextet (LIT Board) support
+             PIUIO hardware support
+             Windowed mode improvements
+03/14/2019 - IIDX API module
+             EA server maintenance toggle
+             SDVX BI2A support
+02/19/2019 - Network API server
+             Run outside of modules dir
+             Misc bug fixes
+01/27/2019 - Jubeat Knit support
+             Quiz Magic Academy support
+             Museca/Jubeat lights
+             Smartcard NumLock toggle
+01/11/2019 - Open Source!
+             Jubeat Copious support
+             Bishi Bashi Channel support
+             PacDrive/PocketVoltex support
+             KBT/KLD now are optional
+             Stacktraces, quiet crash
+             Huge code refactoring
+             Stability improvements/fixes
+11/03/2018 - IIDX 25 (io, cams, light)
+             IIDX effector bindings
+             HID lighting output support
+             Button Multibinding
+             HID readers e.g. zyp's cardio
+             Bug fixes as usual
+08/17/2018 - DDR X3, Nostalgia, Network
+06/25/2018 - HID smartcard readers
+06/10/2018 - DDR support
+06/07/2018 - Gitadora/HID/EA bug fixes
+05/18/2018 - Gitadora and MIDI devices
+05/07/2018 - Support for hat switches
+04/21/2018 - Card path configuration
+04/09/2018 - HID/Analog/RawInput support
+03/13/2018 - SDVX printer, felica, BT5API
+01/23/2018 - MUSECA analog slowdown, fixes
+01/21/2018 - Many fixed bugs/crashes
+11/15/2017 - Fixed the MUSECA sound issue
+11/14/2017 - Added MUSECA, Pop'n Music
+             Wavepass reader support
+09/11/2017 - Added Road Fighters 3D
+08/29/2017 - Custom modules path,
+             UAC admin manifest, netfix
+08/28/2017 - Bug fixes
+08/21/2017 - 64bit builds, beatstream
+             More command line options
+07/28/2017 - Fixed I/O for IIDX and SDVX
+07/26/2017 - Configuration Tool, Jubeat
+             Touch module, more options
+06/01/2017 - Added DEA support
+05/31/2017 - Public release

@@ -1,0 +1,9 @@
+Treat the license for this code as though it were the Apache-2.0 license,
+WITH THE FOLLOWING MODIFICATIONS:
+
+If you integrate LayeredFS into your launcher of choice, you MUST NOT modify the
+existing commandline argument names.
+
+If you add any commandline arguments, they MUST begin with `--layered-`.
+
+I'm sure this lax wording is not legally binding, but please don't be an asshole.
