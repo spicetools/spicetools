@@ -193,7 +193,7 @@ mkdir -p ${OUTDIR}/src
 if ((INCLUDE_SRC > 0))
 then
 	echo "Generating source file archive..."
-	git archive --format tar.gz -19 --prefix=spicetools/ HEAD > ${OUTDIR}/src/spicetools-${GIT_BRANCH}.tar.gz 2>/dev/null || \
+	git archive --format tar --prefix=spicetools/ HEAD | gzip -9 > ${OUTDIR}/src/spicetools-${GIT_BRANCH}.tar.gz 2>/dev/null || \
 		echo "WARNING: Couldn't get git to create the archive. Is this a git repository?"
 fi
 
